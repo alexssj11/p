@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎶 Blog de Música 🎵</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #121212;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+            color: #e0e0e0;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: #1c1c1c;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+        }
+        h1 {
+            color: #780a83;
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        .album {
+            margin: 30px 0;
+            padding: 20px;
+            border-bottom: 1px solid #333;
+        }
+        .album img {
+            max-width: 40%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+        .album p {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .descripcion {
+            font-size: 1em;
+            font-style: italic;
+            color: #a8a8a8;
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        .album a {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            color: #121212;
+            background-color: #780a83;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        .album a:hover {
+            background-color: #780a83;
+        }
+        .album a:focus {
+            outline: none;
+            box-shadow: 0 0 5px 2px #780a83;
+        }
+        footer {
+            margin-top: 30px;
+            font-size: 0.9em;
+            color: #a8a8a8;
+        }
+    </style>
+</head>
+<body>
+    
+    <audio id="miAudio" autoplay loop controls>
+        <source src="myblood.mp3" type="audio/mp3">
+    </audio>
+
+    <div class="container">
+        <h1>🎶 Blog de Música 🎵</h1>
+        <p>Descubre los mejores álbumes y canciones.</p>
+        
+        <div class="album">
+            <img src="stoney.jpg" alt="Portada del Disco">
+            <p>Stoney Deluxe - Post Malone</p>
+            <p class="descripcion">Stoney es el primer álbum de estudio de Post Malone, lanzado en 2016. Este trabajo fusiona géneros como el rap, el hip hop y el rock, con una producción que combina sonidos melódicos y electrónicos.</p>
+            <a href="https://www.youtube.com/playlist?list=PLIN4zs1V_NcCBQxln-QrMwkmFBJs-LUih" target="_blank">Enlace a Stoney</a>
+            <a href="https://www.youtube.com/watch?v=q-YzHC6m7Po&list=PLIN4zs1V_NcCBQxln-QrMwkmFBJs-LUih&index=3" target="_blank">Deja Vu</a>
+            <a href="https://www.youtube.com/watch?v=FFhGqNa-Waw&list=PLIN4zs1V_NcCBQxln-QrMwkmFBJs-LUih&index=12" target="_blank">Congratulations</a>
+            <a href="https://www.youtube.com/watch?v=gk0nB9vvYfU&list=PLIN4zs1V_NcCBQxln-QrMwkmFBJs-LUih&index=7" target="_blank">I Fall Apart</a>
+        </div>
+
+        <div class="album">
+            <img src="clancy.jpg" alt="Portada del Disco">
+            <p>Clancy - Twenty Øne Pilots</p>
+            <p class="descripcion">En este trabajo, la banda regresa a su universo conceptual de Trench, explorando temas de identidad, libertad y lucha interna a través de un sonido alternativo con influencias de rock y hip-hop.</p>
+            <a href="https://www.youtube.com/playlist?list=PL3roRV3JHZzbatp5PvE-88ApmVishqGHN" target="_blank">Enlace a Clancy</a>
+            <a href="https://www.youtube.com/watch?v=YAmLMohrus4&list=PL3roRV3JHZzbatp5PvE-88ApmVishqGHN&index=3" target="_blank">Backslide</a>
+            <a href="https://www.youtube.com/watch?v=flYgpeWsC2E&list=PL3roRV3JHZzbatp5PvE-88ApmVishqGHN&index=8" target="_blank">Lavish</a>
+            <a href="https://www.youtube.com/watch?v=TnoWOgAD054&list=PL3roRV3JHZzbatp5PvE-88ApmVishqGHN&index=1" target="_blank">At The Risk Of Feeling Dumb</a>
+        </div>
+
+        <div class="album">
+            <img src="ameri.jpg" alt="Portada del Disco">
+            <p>Ameri - Duki</p>
+            <p class="descripcion">El esperado álbum de Duki, donde fusiona su característico estilo de trap con sonidos frescos de reggaetón y ritmos urbanos. Con letras introspectivas y beats envolventes, este disco consolida su evolución artística y su impacto en la música latina.</p>
+            <a href="https://www.youtube.com/playlist?list=OLAK5uy_mBcjbZa8Okb7rmOrx9OIYukkcwykJRLe0" target="_blank">Enlace a Ameri</a>
+            <a href="https://www.youtube.com/watch?v=qC1xMCtQD_s&list=PLootFMHDXHmSdLhq9SHZar38ECp8oOPJe&index=4&pp=iAQB8AUB" target="_blank">Imperio</a>
+            <a href="https://www.youtube.com/watch?v=wcWq8XKbcA8&list=PLootFMHDXHmSdLhq9SHZar38ECp8oOPJe&index=8&pp=iAQB8AUB" target="_blank">No Drama</a>
+            <a href="https://www.youtube.com/watch?v=nHVdEWooBoQ&list=PLootFMHDXHmSdLhq9SHZar38ECp8oOPJe&index=3&pp=iAQB8AUB" target="_blank">Buscarte Lejos</a>
+        </div>
+        
+      
+        <div class="album">
+            <img src="eub.jpg" alt="Portada del Disco">
+            <p>El Ultimo Baile - Trueno</p>
+            <p class="descripcion">Es el tercer álbum de estudio del rapero argentino Trueno, lanzado el 23 de mayo de 2024. Este trabajo celebra los 50 años del hip-hop, rindiendo homenaje a sus raíces y evolución. </p>
+            <a href="https://www.youtube.com/playlist?list=OLAK5uy_mqtY4zu65QzON6Rld2muRfrElRZ4555CU" target="_blank">Enlace a El Ultimo Baile</a>
+            <a href="https://www.youtube.com/watch?v=nbC073teGbY&list=PLSBWvYm8t6uZQKF8Dfz6826GXQXi_6SEZ&index=2&pp=iAQB8AUB" target="_blank">The Roof Is On Fire</a>
+            <a href="https://www.youtube.com/watch?v=iJ-KK9wzezQ&list=PLSBWvYm8t6uZQKF8Dfz6826GXQXi_6SEZ&index=12&pp=iAQB8AUB" target="_blank">La Nota</a>
+            <a href="https://www.youtube.com/watch?v=y4VWewTLS_E&list=PLSBWvYm8t6uZQKF8Dfz6826GXQXi_6SEZ&index=9&pp=iAQB8AUB" target="_blank">Night</a>
+        </div>
+
+        <div class="album">
+            <img src="gnx.jpg" alt="Portada del Disco">
+            <p>GNX - Kendrick Lamar</p>
+            <p class="descripcion">Es el sexto álbum de estudio del rapero estadounidense Kendrick Lamar, lanzado de forma sorpresiva el 22 de noviembre de 2024. Este trabajo marca su transición desde Top Dawg Entertainment a su propio sello, pgLang, y rinde homenaje a sus raíces californianas, especialmente a la cultura del hip-hop de la Costa Oeste. ​</p>
+            <a href="https://www.youtube.com/playlist?list=OLAK5uy_nr2Gbry1tH6kks2gabRq1k3sjR0ByDnKg" target="_blank">Enlace a GNX</a>
+            <a href="https://www.youtube.com/watch?v=U8F5G5wR1mk&list=PLjB_8hSS2lEPSOivtbvDDugFuCeqC4_xm&index=9&pp=iAQB8AUB" target="_blank">Tv Off</a>
+            <a href="https://www.youtube.com/watch?v=cbHkzwa0QmM&list=PLjB_8hSS2lEPSOivtbvDDugFuCeqC4_xm&index=10&pp=iAQB8AUB" target="_blank">Peekaboo</a>
+            <a href="https://www.youtube.com/watch?v=YwUQ_5iV9pY&list=PLjB_8hSS2lEPSOivtbvDDugFuCeqC4_xm&index=6" target="_blank">Wacced Out Murals</a>
+        </div>
+
+        <div class="video-links">
+            <h2>Videoclips y Entrevistas</h2>
+
+            
+            <iframe width="800" height="450" src = "https://www.youtube.com/embed/8fBimVfIwGQ" frameborder = "0" allowfullscreen> </iframe>
+            
+            <iframe width="800" height="450" src = "https://www.youtube.com/embed/3R3fvkpvSRg" frameborder = "0" allowfullscreen> </iframe>
+            
+            <iframe width="800" height="450" src = "https://www.youtube.com/embed/loOWKm8GW6A" frameborder = "0" allowfullscreen> </iframe>
+            
+            <iframe width="800" height="450" src = "https://www.youtube.com/embed/i79eHcBd2us" frameborder = "0" allowfullscreen> </iframe>
+            
+            <iframe width="800" height="450" src = "https://www.youtube.com/embed/pCSaR_-i_pY" frameborder = "0" allowfullscreen> </iframe>
+            
+
+            
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; Blog de Música TESE | Alex Yahir Aguilar Barron 15401</p>
+    </footer>
+
+</body>
+</html>
