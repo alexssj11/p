@@ -76,11 +76,9 @@
 </head>
 <body>
     
-    <audio id="miAudio" loop>
+    <audio id="miAudio" autoplay loop muted>
     <source src="myblood.mp3" type="audio/mp3">
     </audio>
-
-<button onclick="document.getElementById('miAudio').play()">Reproducir Música</button>
 
     <div class="container">
         <h1>🎶 Blog de Música 🎵</h1>
@@ -153,5 +151,13 @@
     <footer>
         <p>&copy; 2025 Blog de Música TESE | Todos los derechos reservados</p>
     </footer>
+
+     <script>
+        // Espera a que el usuario interactúe con la página para desmutear el audio
+        document.body.addEventListener('click', function() {
+            var audio = document.getElementById('miAudio');
+            audio.muted = false;  // Desmutear el audio
+        });
+    </script>
 </body>
 </html>
